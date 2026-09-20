@@ -3,4 +3,7 @@ p{
 }
 body{
     margin: 0px;
+    padding-top: 80px;
+    padding-left: 72px;
+    background-color: rgb(240, 240, 240);
 }
