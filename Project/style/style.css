@@ -2,6 +2,21 @@
 
         .thumbnail-row{
             margin-bottom: 12px;
+            position: relative;
+        }
+
+        .time-video{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:500 ;
+            font-size: 12px;
+            position: absolute;
+            background-color: black;
+            color: white;
+            border-radius: 2px;
+            padding: 4px;
+            bottom: 8px;
+            right: 5px;
+            
         }
 
         .thumbnail{
@@ -48,3 +63,4 @@
             column-gap: 16px;  
             row-gap: 40px;   
         }
+        
