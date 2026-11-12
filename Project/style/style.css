@@ -53,10 +53,63 @@
             grid-template-columns: 50px 1fr;
         }
 
+        .channel-picture{
+            
+        }
+
         .profile-picture{
             width: 36px;
             border-radius: 25px;
+            position: relative;
             
+        }
+        
+       .tooltip-profile-channel{
+            position: absolute;
+            display: flex;
+            width: 280px;
+            height: 80px;
+            background-color: white;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 12px rgb(187, 187, 187);
+            opacity: 0;
+            transition: opacity 0.15s;
+            pointer-events: none;
+        }
+
+        .channel-picture:hover .tooltip-profile-channel{
+            opacity: 1;
+        }
+            
+
+
+
+        .tooltip-profile-channel img{
+            width: 58px;
+            border-radius: 50%;
+            margin-left: 15px;
+
+        }
+
+        .tooltip-profile-channel div{
+            margin-left: 10px;
+            justify-content: center;
+            
+        }
+
+        .tooltip-profile-channel .tooltip-title{
+            color: black;
+            font-weight: bolder;
+            font-size: larger;
+            margin-top: 0px;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-profile-channel .tooltip-subscribers{
+            color: rgb(96, 96, 96);
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
 
         .video-grid{
@@ -65,4 +118,6 @@
             column-gap: 16px;  
             row-gap: 40px;   
         }
+
+        
         
